@@ -15,3 +15,22 @@
 @import url('./vite-promo.css');
 @import url('./badges.css');
 @import url('./back-link.css');
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 24px;
+  margin: 0 auto;
+  padding: 0;
+  width: 1128px;
+  list-style: none;
+}
+
+.gallery-item {
+  width: 360px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
